@@ -1,17 +1,19 @@
-inmodule.exports = {
+{
     "env": {
         "browser": true,
         "commonjs": true,
+        "es6": true,
         "node": true
     },
     "extends": "eslint:recommended",
     "parserOptions": {
-        "ecmaVersion": 6
+        "ecmaVersion": 2018,
+        "sourceType": "module"
     },
     "rules": {
         "indent": [
             "error",
-            4
+            "tab"
         ],
         "linebreak-style": [
             "error",
@@ -19,7 +21,7 @@ inmodule.exports = {
         ],
         "quotes": [
             "error",
-            "double"
+            "single"
         ],
         "semi": [
             "error",
@@ -28,4 +30,4 @@ inmodule.exports = {
         "no-console":1
         ,
     }
-};
+}

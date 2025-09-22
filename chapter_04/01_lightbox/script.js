@@ -1,3 +1,5 @@
+
+// lightbox
 $(document).ready(function(){
   $('a.lightbox').click(function(e) {
     $('body').css('overflow-y', 'hidden'); // hide scrollbars!

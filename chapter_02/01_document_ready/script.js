@@ -3,7 +3,7 @@ $(function(){
   //alert($('#celebs tbody tr:even').length + ' elements!');
  //$('#celebs tbody  tr:even').addClass('zebra');
   
-  /*$('<input type="button" value="toggle"  id="toggleButton">').insertBefore('#disclaimer');
+  $('<input type="button" value="toggle"  id="toggleButton">').insertBefore('#disclaimer');
   $('#toggleButton').click(function() {
     $('#disclaimer').slideToggle('slow',function() {
       $('#toggleButton').fadeOut();
